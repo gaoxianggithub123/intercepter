@@ -11,7 +11,6 @@ import java.util.logging.Logger;
 
 public class Intercepter implements HandlerInterceptor {
     private static final Logger log = (Logger) LoggerFactory.getLogger(Intercepter.class);
-
 //在请求处理之前进行调用（Controller方法调用之前）
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
